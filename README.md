@@ -1,16 +1,16 @@
 # Creación-de-Componente-
 
-# Objetivo:
+## Objetivo:
 Diseñar e implementar un componente visual personalizado en Java utilizando NetBeans, que permita
 personalización mediante propiedades y métodos públicos configurables por el usuario.
 
-# Proposito:
+## Proposito:
 El proposito de nuestro componente es que el usuario pueda ocupar el componente para textos cortos como comentarios, notas etc.
 -Permite cambiar el color de letra, tipo y tamaño
 -Permite cambiar el color de linea y el fondo del texto
 -Permite elegir 3 opciones de escritura: solo numeros, letras o ambos y tambien el numero de caracteres
 
-# Explicacion del codigo
+## Explicacion del codigo
 
 Es un componente personalizado de interfaz gráfica basado en JPanel, que encapsula un JTextField con:
 Un JLabel encima como etiqueta.
@@ -21,7 +21,7 @@ Solo letras, números o ambos.
 
 Nuestra clase CustomTextField es un componente gráfico personalizado que extiende JPanel, y encapsula un campo de texto (JTextField) con una etiqueta (JLabel) y varias características adicionales como personalización visual y validación de entrada.
 
-Primero, se declara la clase y una enumeración interna llamada InputType, la cual define el tipo de datos que el campo puede aceptar: ALL (letras y números), LETTERS (solo letras) y NUMBERS (solo números).
+Primero, se declara la clase y una enumeración interna llamada InputType, la cual define el tipo de datos que el campo puede aceptar: ALL (letras y números), LETTERS (solo letras) y NUMBERS (solo números). ```java
 
     public class CustomTextField extends JPanel {
 
