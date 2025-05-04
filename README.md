@@ -9,7 +9,7 @@ El proposito de nuestro componente es que el usuario pueda ocupar el componente 
 -Permite cambiar el color de letra, tipo y tamaño
 -Permite cambiar el color de linea y el fondo del texto
 -Permite elegir 3 opciones de escritura: solo numeros, letras o ambos y tambien el numero de caracteres
-## 📋 Métodos de la Clase
+##  Métodos de la Clase
 
 | Método                          | Parámetros                     | Retorno    | Descripción                                                                 |
 |----------------------------------|--------------------------------|------------|-----------------------------------------------------------------------------|
@@ -33,18 +33,19 @@ El proposito de nuestro componente es que el usuario pueda ocupar el componente 
 | `setBackgroundColor(Color color)`| `color`: Color de fondo        | `void`     | Cambia el color de fondo del componente.                                  |
 | `getBackgroundColor()`           | -                              | `Color`    | Obtiene el color de fondo actual.                                         |
 
-###  Uso Básico
-    ```java
-// Ejemplo de configuración
+##  Uso Básico
+```java
+Ejemplo de configuración
 miCampo.setLabelText("Usuario:");
 miCampo.setMaxLength(15);
 miCampo.setInputType(InputType.TEXT);
 miCampo.setBorderColor(Color.BLUE);
 
-// Obtener valores
+*  Obtener valores
 String texto = miCampo.getText();
 int maxCaracteres = miCampo.getMaxLength();
 
+```
 ## Explicacion del codigo
 
 Es un componente personalizado de interfaz gráfica basado en JPanel, que encapsula un JTextField con:
