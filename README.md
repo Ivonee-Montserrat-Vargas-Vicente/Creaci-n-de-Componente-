@@ -22,7 +22,7 @@ Solo letras, números o ambos.
 Nuestra clase CustomTextField es un componente gráfico personalizado que extiende JPanel, y encapsula un campo de texto (JTextField) con una etiqueta (JLabel) y varias características adicionales como personalización visual y validación de entrada.
 
 Primero, se declara la clase y una enumeración interna llamada InputType, la cual define el tipo de datos que el campo puede aceptar: ALL (letras y números), LETTERS (solo letras) y NUMBERS (solo números). 
-    ```java
+    ``` java
 
     public class CustomTextField extends JPanel {
 
