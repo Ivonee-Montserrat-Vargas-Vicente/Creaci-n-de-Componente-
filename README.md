@@ -202,8 +202,7 @@ El método más importante es updateDocumentFilter(), que instala un DocumentFil
 
 Por defecto el componente ya se encuentra en la Paleta de componentes asi que ahi lo podemos encontrar de manera visual
 
-![Texto alternativo](<img width="311" alt="image" src="https://github.com/user-attachments/assets/e50a37f6-93e7-4f7e-aec9-39a5815e662f" />
-)
+<img width="311" alt="image" src="https://github.com/user-attachments/assets/e50a37f6-93e7-4f7e-aec9-39a5815e662f" />
 
 Arrastramos el componente al jFrame que vayamos a ocupar 
 
@@ -212,9 +211,20 @@ Arrastramos el componente al jFrame que vayamos a ocupar
 
 Una vez que ya lo tenemos agregado al jFrame damos click derecho y apareceran algunas de sus propiedades que le agregamos
 
+
+<img width="465" alt="image" src="https://github.com/user-attachments/assets/3c253867-3f05-404e-9fea-cc6f40bbc320" />
+
 Personaliamos el componente como queramos
 
+
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/5a3cba51-1242-4cda-b8e9-8f7106ce14d5" />
+
+
 Asi tenemos nuestro componente personalizado
+
+
+![image](https://github.com/user-attachments/assets/3e2f4d0c-867c-47e4-a24c-1ea38ebf02bf)
+
 
 # Video Explicativo
 
@@ -222,8 +232,8 @@ Para ver una demostración en video de cómo funciona el proyecto:
 
 # Creadoras:
 
-Vargas Vicente Ivonee Montserrat
-Gomez Garcia Paris Lizette
+-Vargas Vicente Ivonee Montserrat
+-Gomez Garcia Paris Lizette
 
 
 
